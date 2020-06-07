@@ -15,5 +15,5 @@ OpenCore configuration for support macOS on Surface Pro 7
 |  Graphic Acceleration          |  No Works | I cannot find correct FB        |
 |  Wifi                          |  No Works | Actually osx not support Wifi 6 |
 |  Type Cover  (keyboard/mouse)  |  No Works |                                 |
-|  Type Cover  (keyboard/mouse)  |  No Works | Maybe wrong id                  |
+|  Audio                         |  No Works | Maybe wrong id                  |
 
