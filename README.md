@@ -2,13 +2,19 @@
 -
 OpenCore configuration for support macOS on Surface Pro 7
 
+### Surface Specs
+- Intel® Core™ i5-1035G4 Quad-Core
+- 8 GB LPDDR4x RAM
+- Intel® Iris™ Plus
+- SSD 256 GB
+
 ### Version Info
 
 |  OC  |  macOS  |
 |------|---------|
 | 0.59 | 10.15.5 |
 
-### Functionality
+### Issues
 
 |              Feature           |  Status   |       Note                      |
 |--------------------------------|-----------|---------------------------------|
@@ -17,3 +23,5 @@ OpenCore configuration for support macOS on Surface Pro 7
 |  Type Cover  (keyboard/mouse)  |  No Works |                                 |
 |  Audio                         |  No Works | Maybe wrong id                  |
 
+### Updates
+Wifi/Bluethoot: Maybe this can help: [itlwm](https://github.com/zxystd/itlwm)
