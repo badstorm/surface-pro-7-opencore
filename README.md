@@ -10,9 +10,10 @@ OpenCore configuration for support macOS on Surface Pro 7
 
 ### Version Info
 
-|  OC  |  macOS  |
-|------|---------|
-| 0.59 | 10.15.5 |
+|  OC   |  macOS  |
+|-------|---------|
+| 0.59  | 10.15.5 |
+| 0.60b | 10.16   |
 
 ### Issues
 
