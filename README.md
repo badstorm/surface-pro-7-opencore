@@ -1,5 +1,5 @@
 # Surface Pro 7 - OPENCORE
--
+---
 OpenCore configuration for support macOS on Surface Pro 7
 
 ### Surface Specs
@@ -10,18 +10,18 @@ OpenCore configuration for support macOS on Surface Pro 7
 
 ### Version Info
 
-|  OC  |  macOS  |
-|------|---------|
-| 0.59 | 10.15.5 |
+| Release |  OC  |  macOS  |
+|---------|------|---------|
+| 1662    | 0.62 | 10.16 |
+| 1559    | 0.59 | 10.15.5 |
 
-### Issues
 
+### Status
 |              Feature           |  Status   |       Note                      |
 |--------------------------------|-----------|---------------------------------|
-|  Graphic Acceleration          |  No Works | I cannot find correct FB        |
-|  Wifi                          |  No Works | Actually osx not support Wifi 6 |
-|  Type Cover  (keyboard/mouse)  |  No Works |                                 |
-|  Audio                         |  No Works | Maybe wrong id                  |
-
-### Updates
-Wifi/Bluethoot: Maybe this can help: [itlwm](https://github.com/zxystd/itlwm)
+|  Graphic Acceleration          |  Works with QE/CI | Some problems with brightness and flashes |
+|  Wifi                          |  Works | With [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) |
+|  Type Cover  (keyboard/mouse)  |  Works | With RHUB |                                 |
+|  Audio                         |  Works | With VoodooHDA   |
+|                                |        |                  |
+|  Bluetooth                     |  No Works |               |
