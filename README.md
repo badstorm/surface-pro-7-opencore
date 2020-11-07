@@ -12,16 +12,18 @@ OpenCore configuration for support macOS on Surface Pro 7
 
 | Release |  OC  |  macOS  |
 |---------|------|---------|
-| 1662    | 0.62 | 10.16 |
+| 1663    | 0.63 | 10.15.5 / 11.0 |
+| 1662    | 0.62 | 10.15.5 / 11.0 |
 | 1559    | 0.59 | 10.15.5 |
 
 
 ### Status
-|              Feature           |  Status   |       Note                      |
-|--------------------------------|-----------|---------------------------------|
-|  Graphic Acceleration          |  Works with QE/CI | Some problems with brightness and flashes |
-|  Wifi                          |  Works | With [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) |
-|  Type Cover  (keyboard/mouse)  |  Works | With RHUB |                                 |
-|  Audio                         |  Works | With VoodooHDA   |
-|                                |        |                  |
-|  Bluetooth                     |  No Works |               |
+|  Status             |         Feature                 |            Note                      |
+|---------------------|---------------------------------|--------------------------------------|
+|  :white_check_mark: |  Graphic Acceleration          |  QE/CI works, but some problems with continuous flashes and glitch mouse pointer |
+|  :white_check_mark: |  Wifi                          |  With [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) |
+|  :white_check_mark: |  Type Cover  (keyboard/mouse)  |  With RHUB |                                 |
+|  :white_check_mark: |  Audio                         |  With VoodooHDA   |
+|                     |                                |                   |
+|  :heavy_exclamation_mark: |  Bluetooth               |                   |
+|  :heavy_exclamation_mark: |  Battery Status          |                   | 
