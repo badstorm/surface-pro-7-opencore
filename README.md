@@ -1,4 +1,4 @@
-# Surface Pro 7 - OPENCORE
+# Surface Pro 7 - macOS - OpenCore
 ---
 OpenCore configuration for support macOS on Surface Pro 7
 
