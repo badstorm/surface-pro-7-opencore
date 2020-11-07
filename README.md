@@ -8,7 +8,7 @@ OpenCore configuration for support macOS on Surface Pro 7
 - Intel® Iris™ Plus
 - SSD 256 GB
 
-### Version Info
+### Releases
 
 | Release |  OC  |  macOS  |
 |---------|------|---------|
