@@ -31,9 +31,9 @@ OpenCore configuration for support macOS on Surface Pro 7
 ### Trackpad configuration
 Trackpad works but macOS not find it in settings. You need to manaul configure it. Here my configuration:
 ```
-defaults write NSGlobalDomain com.apple.trackpad.forceClick -bool false
-defaults write com.apple.AppleMultitouchTrackpad ForceSuppressed -bool true
-defaults write com.apple.AppleMultitouchTrackpad ActuateDetents -bool false
+sudo defaults write NSGlobalDomain com.apple.trackpad.forceClick -bool false
+sudo defaults write com.apple.AppleMultitouchTrackpad ForceSuppressed -bool true
+sudo defaults write com.apple.AppleMultitouchTrackpad ActuateDetents -bool false
 
 sudo defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true 
 sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true 
@@ -42,4 +42,6 @@ sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 sudo defaults write com.apple.AppleMultitouchTrackpad Dragging -bool true 
 sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -bool true
+
+# REBOOT
 ```
