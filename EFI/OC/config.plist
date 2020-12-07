@@ -106,6 +106,8 @@
 		<array/>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -150,18 +152,18 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AABSig==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AAAAAw==</data>
-				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-stolenmem</key>
-				<data>AACwAw==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>AAPL00,override-no-connect</key>
 				<data>AP///////wAw5FUFoQAAEAAaAQSlGhF4A+6Vo1RMmSYPUFQAAAABAQEBAQEBAQEBAQEBAQEBP3+woKAgNHAwIDoABK0QAAAZAAAA/QAwPAAAIQQKFBQUFBQUAAAA/gBMR0RfTVAwLjJfCiAgAAAA/gBMUDEyM1dRMTEyNjA0AD8=</data>
 				<key>device-id</key>
 				<data>UooAAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AAAAAw==</data>
+				<key>framebuffer-patch-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-stolenmem</key>
+				<data>AACwAw==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
 			</dict>
@@ -551,6 +553,8 @@
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
+			<false/>
+			<key>BlacklistAppleUpdate</key>
 			<false/>
 			<key>BootProtect</key>
 			<string>None</string>
