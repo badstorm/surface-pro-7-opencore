@@ -26,6 +26,7 @@ OpenCore configuration for support macOS on Surface Pro 7
 |  :white_check_mark: |  Audio                         |  With VoodooHDA   |
 |                     |                                |                   |
 |  :heavy_exclamation_mark: |  Battery Status          |                   | 
+|  :heavy_exclamation_mark: |  Camera Front and Rear        |                   | 
 
 
 ### Trackpad configuration
