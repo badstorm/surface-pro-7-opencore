@@ -12,6 +12,7 @@ OpenCore configuration for support macOS on Surface Pro 7
 
 | Release |  OC  |  macOS  |
 |---------|------|---------|
+| 1664    | 0.64 | 11.0 |
 | 1663    | 0.63 | 10.15.5 / 11.0 |
 | 1660    | 0.60 | 10.15.5 |
 | 1559    | 0.59 | 10.15.5 |
