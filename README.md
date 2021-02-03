@@ -25,7 +25,7 @@ Seems that the last `Surface UEFI Firmware` Update (`Version 9.101.140.0`) relea
 ### Status
 |  Status             |         Feature                 |            Note                      |
 |---------------------|---------------------------------|--------------------------------------|
-|  :white_check_mark: |  Graphic Acceleration          |  QE/CI works. With macOS 11.2 works perfect also with retina resolutions without any screen blinking. |
+|  :white_check_mark: |  Graphic Acceleration          |  QE/CI works, screen blinking at resolution 1368x912 scaled. WORKAROUND: Try change resolution |
 |  :white_check_mark: |  Wifi & Bluetooth              |  With [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) |
 |  :white_check_mark: |  Type Cover  (keyboard/mouse)  |  With RHUB and VoodooI2C|                                 |
 |  :white_check_mark: |  Audio                         |  With VoodooHDA   |
