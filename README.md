@@ -36,6 +36,7 @@ Seems that the last `Surface UEFI Firmware` Update (`Version 9.101.140.0`) relea
 
 ### Trackpad configuration
 Trackpad works but macOS not find it in settings. You need to manaul configure it. Here my configuration:
+*This configuration works for me, but someone make it work removing **sudo*** 
 ```
 sudo defaults write NSGlobalDomain com.apple.trackpad.forceClick -bool false
 sudo defaults write com.apple.AppleMultitouchTrackpad ForceSuppressed -bool true
