@@ -53,3 +53,6 @@ sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging 
 
 # REBOOT
 ```
+
+### Secure Boot
+If you want to boot without the anoing red bar with the lock icon you can try [this workaround](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md). *Thanks to @Xiashangning* 
