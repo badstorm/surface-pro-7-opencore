@@ -28,7 +28,7 @@ Seems that the last `Surface UEFI Firmware` Update (`Version 9.101.140.0`) relea
 |  :white_check_mark: |  Graphic Acceleration          |  QE/CI works, screen blinking at resolution 1368x912 scaled. WORKAROUND: Try change resolution |
 |  :white_check_mark: |  Wifi & Bluetooth              |  With [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) |
 |  :white_check_mark: |  Type Cover  (keyboard/mouse)  |  With RHUB and VoodooI2C|                                 |
-|  :white_check_mark: |  Audio                         |  With VoodooHDA   |
+|  :white_check_mark: |  Audio                         |  With VoodooHDA  ([AppleALC Alternative](https://github.com/badstorm/surface-pro-7-opencore/issues/12)) |
 |                     |                                |                   |
 |  :heavy_exclamation_mark: |  Battery Status          |                   | 
 |  :heavy_exclamation_mark: |  Camera Front and Rear        |                   | 
