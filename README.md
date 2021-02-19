@@ -3,7 +3,7 @@
 OpenCore configuration for support macOS on Surface Pro 7
 
 ## :warning: WARNING :warning:
-Seems that the last `Surface UEFI Firmware` Update (`Version 9.101.140.0`) released on `January 14 2021` broke OC bootstrap. Until there was an OC compatible version, please prevent the update.
+Seems that the last `Surface UEFI Firmware` Update (`Version 9.101.140.0`) released on `January 14 2021` broke OC bootstrap. Until there was an OC compatible version, please prevent the update. **Possible Fix with the next OC release**
 
 ### Surface Specs
 - Intel® Core™ i5-1035G4 Quad-Core
