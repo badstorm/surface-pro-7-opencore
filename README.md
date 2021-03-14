@@ -2,8 +2,6 @@
 ---
 OpenCore configuration for support macOS on Surface Pro 7
 
-## :warning: WARNING :warning:
-Seems that the last `Surface UEFI Firmware` Update (`Version 9.101.140.0`) released on `January 14 2021` broke OC bootstrap. Until there was an OC compatible version, please prevent the update. **Possible Fix with the next OC release**
 
 ### Surface Specs
 - Intel® Core™ i5-1035G4 Quad-Core
@@ -11,24 +9,14 @@ Seems that the last `Surface UEFI Firmware` Update (`Version 9.101.140.0`) relea
 - Intel® Iris™ Plus
 - SSD 256 GB
 
-### Releases
-
-| Release |  OC  |  macOS  |
-|---------|------|---------|
-| 1665    | 0.65 | 11.0 / 11.2 |
-| 1664    | 0.64 | 11.0 |
-| 1663    | 0.63 | 10.15.5 / 11.0 |
-| 1660    | 0.60 | 10.15.5 |
-| 1559    | 0.59 | 10.15.5 |
-
 
 ### Status
 |  Status             |         Feature                 |            Note                      |
 |---------------------|---------------------------------|--------------------------------------|
-|  :white_check_mark: |  Graphic Acceleration          |  QE/CI works, screen blinking at resolution 1368x912 scaled. WORKAROUND: Try change resolution |
+|  :white_check_mark: |  Graphic Acceleration          |  QE/CI works |
 |  :white_check_mark: |  Wifi & Bluetooth              |  With [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) |
 |  :white_check_mark: |  Type Cover  (keyboard/mouse)  |  With RHUB and VoodooI2C|                                 |
-|  :white_check_mark: |  Audio                         |  With VoodooHDA  ([AppleALC Alternative](https://github.com/badstorm/surface-pro-7-opencore/issues/12)) |
+|  :white_check_mark: |  Audio                         |  With AppleALC   |
 |                     |                                |                   |
 |  :heavy_exclamation_mark: |  Battery Status          |                   | 
 |  :heavy_exclamation_mark: |  Camera Front and Rear        |                   | 
