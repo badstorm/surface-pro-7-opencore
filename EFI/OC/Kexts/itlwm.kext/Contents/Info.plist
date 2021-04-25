@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19G73</string>
+	<string>19H2</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,27 +17,29 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.0</string>
+	<string>1.3.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.1.0</string>
+	<string>1.3.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E708</string>
+	<string>12D4e</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>11.1</string>
 	<key>DTSDKBuild</key>
-	<string>16C58</string>
+	<string>20C63</string>
 	<key>DTSDKName</key>
-	<string>macosx10.12</string>
+	<string>macosx11.1</string>
 	<key>DTXcode</key>
-	<string>1160</string>
+	<string>1240</string>
 	<key>DTXcodeBuild</key>
-	<string>11E708</string>
+	<string>12D4e</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>itlwm</key>
@@ -90,27 +92,25 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.12</string>
+	<string>10.9</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2020 钟先耀. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IONetworkingFamily</key>
-		<string>3.2</string>
+		<string>1.5.0</string>
 		<key>com.apple.iokit.IOPCIFamily</key>
-		<string>2.9</string>
+		<string>1.7</string>
 		<key>com.apple.kpi.bsd</key>
-		<string>16.7</string>
+		<string>8.10.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>16.7</string>
+		<string>8.10.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>16.7</string>
+		<string>8.10.0</string>
 		<key>com.apple.kpi.mach</key>
-		<string>16.7</string>
+		<string>8.10.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Network-Root</string>
-	<key>XCBUILD</key>
-	<string>1.1.0</string>
 </dict>
 </plist>

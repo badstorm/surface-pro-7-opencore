@@ -22,6 +22,12 @@ OpenCore configuration for support macOS on Surface Pro 7
 |  :heavy_exclamation_mark: |  Camera Front and Rear        |                   | 
 
 
+> For a better Wifi experience, use 
+> **itlwm** instead of **AirportItlwm**
+> with [HeliPort](https://github.com/OpenIntelWireless/HeliPort)
+> Simple enable/disable them in `config.plist`
+
+
 ### Trackpad configuration
 Trackpad works but macOS not find it in settings. You need to manaul configure it. Here my configuration:
 ```
