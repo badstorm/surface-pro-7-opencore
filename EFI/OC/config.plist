@@ -181,6 +181,8 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
+				<key>No-hda-gfx</key>
+				<data>AAAAAAAAAAA=</data>
 				<key>layout-id</key>
 				<integer>35</integer>
 			</dict>
@@ -521,7 +523,7 @@
 			<key>ThirdPartyDrives</key>
 			<true/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
