@@ -3,41 +3,43 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19F101</string>
+	<string>20G165</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>VoodooI2C</string>
+	<string>BigSurface</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.alexandred.VoodooI2C</string>
+	<string>com.xavier.BigSurface</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>VoodooI2C</string>
+	<string>BigSurface</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.6.5</string>
+	<string>1.0.1</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.6.5</string>
+	<string>1.0.1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E801a</string>
+	<string>13A233</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>11.3</string>
 	<key>DTSDKBuild</key>
-	<string>19G68</string>
+	<string>20E214</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx11.3</string>
 	<key>DTXcode</key>
-	<string>1170</string>
+	<string>1300</string>
 	<key>DTXcodeBuild</key>
-	<string>11E801a</string>
+	<string>13A233</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Custom MT2 Personality</key>
@@ -485,36 +487,59 @@
 		<key>Native Multitouch Engine</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.alexandred.VoodooI2C</string>
+			<string>com.xavier.BigSurface</string>
 			<key>IOClass</key>
-			<string>VoodooI2CNativeEngine</string>
-			<key>IOMatchCategory</key>
 			<string>VoodooI2CNativeEngine</string>
 			<key>IOProviderClass</key>
 			<string>VoodooI2CMultitouchInterface</string>
 		</dict>
-		<key>VoodooI2CACPIController</key>
+		<key>Surface Button Driver</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.alexandred.VoodooI2C</string>
+			<string>com.xavier.BigSurface</string>
 			<key>IOClass</key>
-			<string>VoodooI2CACPIController</string>
+			<string>SurfaceButtonDriver</string>
+			<key>IOMatchCategory</key>
+			<string>IODefaultMatchCategory</string>
 			<key>IONameMatch</key>
-			<array>
-				<string>INT33C2</string>
-				<string>INT33C3</string>
-				<string>INT3432</string>
-				<string>INT3433</string>
-			</array>
+			<string>MSHW0040</string>
 			<key>IOProbeScore</key>
-			<integer>9999</integer>
+			<integer>400</integer>
 			<key>IOProviderClass</key>
-			<string>IOService</string>
+			<string>IOACPIPlatformDevice</string>
+		</dict>
+		<key>Surface Type Cover Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.xavier.BigSurface</string>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>5</integer>
+					<key>DeviceUsagePage</key>
+					<integer>13</integer>
+				</dict>
+			</array>
+			<key>IOClass</key>
+			<string>SurfaceTypeCoverDriver</string>
+			<key>IOProbeScore</key>
+			<integer>300</integer>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+			<key>ProcessBluetoothMouseStopsTrackpad</key>
+			<false/>
+			<key>ProcessUSBMouseStopsTrackpad</key>
+			<false/>
+			<key>QuietTimeAfterTyping</key>
+			<integer>200</integer>
+			<key>RM,deliverNotifications</key>
+			<true/>
 		</dict>
 		<key>VoodooI2CControllerDriver</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.alexandred.VoodooI2C</string>
+			<string>com.xavier.BigSurface</string>
 			<key>IOClass</key>
 			<string>VoodooI2CControllerDriver</string>
 			<key>IOProbeScore</key>
@@ -522,27 +547,14 @@
 			<key>IOProviderClass</key>
 			<string>VoodooI2CControllerNub</string>
 		</dict>
-		<key>VoodooI2CPCIController</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.alexandred.VoodooI2C</string>
-			<key>IOClass</key>
-			<string>VoodooI2CPCIController</string>
-			<key>IOPCIMatch</key>
-			<string>0x9d608086&amp;0xFFFCFFFF 0xa1608086&amp;0xFFFCFFFF 0x9de88086&amp;0xFFFCFFFF 0xa3688086&amp;0xFFFCFFFF</string>
-			<key>IOProbeScore</key>
-			<integer>9999</integer>
-			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
-		</dict>
 		<key>VoodooI2CPCILakeController</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.alexandred.VoodooI2C</string>
+			<string>com.xavier.BigSurface</string>
 			<key>IOClass</key>
 			<string>VoodooI2CPCILakeController</string>
 			<key>IOPCIMatch</key>
-			<string>0x06e88086&amp;0xFFFCFFFF 0x02e88086&amp;0xFFFCFFFF 0x34e88086&amp;0xFFFCFFFF</string>
+			<string>0x06e88086&amp;0xFFFCFFFF 0x02e88086&amp;0xFFFCFFFF 0x34e88086&amp;0xFFFCFFFF 0x34c58086&amp;0xFFFCFFFF</string>
 			<key>IOProbeScore</key>
 			<integer>9999</integer>
 			<key>IOProviderClass</key>
@@ -550,11 +562,11 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.11</string>
+	<string>11.0</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2020 Alexandre Daoud. All rights reserved.</string>
+	<string>Copyright © 2021 Xavier Xia. All rights reserved.</string>
 	<key>OSBundleCompatibleVersion</key>
-	<string>2.0.0</string>
+	<string>1.0.0</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.alexandred.VoodooI2CServices</key>
@@ -565,6 +577,8 @@
 		<string>2.0</string>
 		<key>com.apple.iokit.IOPCIFamily</key>
 		<string>2.9</string>
+		<key>com.apple.iokit.IOSerialFamily</key>
+		<string>11.0</string>
 		<key>com.apple.kpi.bsd</key>
 		<string>8.0</string>
 		<key>com.apple.kpi.iokit</key>
@@ -572,7 +586,7 @@
 		<key>com.apple.kpi.libkern</key>
 		<string>14</string>
 		<key>com.apple.kpi.mach</key>
-		<string>14</string>
+		<string>13</string>
 		<key>org.coolstar.VoodooGPIO</key>
 		<string>1.1</string>
 	</dict>
