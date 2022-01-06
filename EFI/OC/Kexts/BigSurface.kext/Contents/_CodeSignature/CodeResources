@@ -20,10 +20,15 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			d7wCwiC2hjvP/dcCMWC3ziubaoM=
+			waXjoS5WBSNPkYowkUKxvfGLeP4=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"b69f036638dbbf97ece6c0b78153e01a87b9df85" or cdhash H"77bc02c220b6863bcffdd7023160b7ce2b9b6a83"</string>
+			<string>cdhash H"dd20fa1843d13c9b46e94db81b22899e7ad17ddf" or cdhash H"c1a5e3a12e5605234f918a309142b1bdf18b78fe"</string>
+		</dict>
+		<key>PlugIns/VoodooSerial.kext</key>
+		<dict>
+			<key>symlink</key>
+			<string>/Users/xavier/Library/Developer/Xcode/DerivedData/BigSurface-cddrjlujelxnaqfuhouutiwheyyr/Build/Intermediates.noindex/ArchiveIntermediates/BigSurface/InstallationBuildProductsLocation/System/Library/Extensions/VoodooSerial.kext</string>
 		</dict>
 	</dict>
 	<key>rules</key>
