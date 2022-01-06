@@ -27,6 +27,8 @@ OpenCore configuration for support macOS on Surface Pro 7
 > with [HeliPort](https://github.com/OpenIntelWireless/HeliPort)
 > Simple enable/disable them in `config.plist`
 
+### Install Notes
+- Type Cover works but macOS Installer ask for a keyboard/mouse. For install macOS use a USB keyboard/mouse
 
 ### Trackpad configuration
 Trackpad works but macOS not find it in settings. You need to manaul configure it. Here my configuration:
