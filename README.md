@@ -24,7 +24,7 @@ OpenCore configuration for support macOS on Surface Pro 7
 
 ### Install Notes
 - For a better Wifi experience, use **itlwm** instead of **AirportItlwm** with [HeliPort](https://github.com/OpenIntelWireless/HeliPort) (Simple enable/disable them in `config.plist`)
-- For better trackpad supprto go to `System Preferences -> Trackpad` and disable `Force click and haptic feedback`
+- For better trackpad support go to `System Preferences -> Trackpad` and disable `Force click and haptic feedback`
 
 ### Secure Boot
 If you want to boot without the anoing red bar with the lock icon you can try [this workaround](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md). *Thanks to @Xiashangning* 
