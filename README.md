@@ -17,7 +17,7 @@ OpenCore configuration for support macOS on Surface Pro 7
 |  :white_check_mark: |  Wifi & Bluetooth              |  With [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) |
 |  :white_check_mark: |  Type Cover  (keyboard/mouse)  |  With RHUB and [BigSurface](https://github.com/Xiashangning/BigSurface)|                             
 |  :white_check_mark: |  Audio                         |  With AppleALC   |
-|  ::white_check_mark: |  Battery Status          |  With [BigSurface](https://github.com/Xiashangning/BigSurface)                 | 
+|  :white_check_mark: |  Battery Status          |  With [BigSurface](https://github.com/Xiashangning/BigSurface)                 | 
 |                     |                                |                   |
 |  :heavy_exclamation_mark: |  Camera Front and Rear        |                   | 
 
