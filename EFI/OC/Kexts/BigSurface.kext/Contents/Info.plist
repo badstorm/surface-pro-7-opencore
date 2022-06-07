@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21A559</string>
+	<string>21E258</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -42,15 +42,6 @@
 	<string>13A233</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>Battery SMBus Controller</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.xavier.BigSurface</string>
-			<key>IOClass</key>
-			<string>SurfaceSMBusController</string>
-			<key>IOProviderClass</key>
-			<string>SurfaceBatteryDriver</string>
-		</dict>
 		<key>Surface Ambient Light Sensor</key>
 		<dict>
 			<key>BaseALIValue</key>
@@ -64,21 +55,32 @@
 			<key>IOPropertyMatch</key>
 			<dict>
 				<key>name</key>
-				<string>MSHW0184</string>
+				<string>#MSHW0184</string>
 			</dict>
 			<key>IOProviderClass</key>
 			<string>VoodooI2CDeviceNub</string>
 		</dict>
 		<key>Surface Battery</key>
 		<dict>
+			<key>BatteryCount</key>
+			<integer>1</integer>
 			<key>CFBundleIdentifier</key>
 			<string>com.xavier.BigSurface</string>
 			<key>IOClass</key>
 			<string>SurfaceBatteryDriver</string>
 			<key>IOProviderClass</key>
-			<string>SurfaceSerialHubDriver</string>
+			<string>SurfaceBatteryNub</string>
 			<key>PerformanceMode</key>
 			<integer>1</integer>
+		</dict>
+		<key>Surface Battery SMBus Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.xavier.BigSurface</string>
+			<key>IOClass</key>
+			<string>SurfaceSMBusController</string>
+			<key>IOProviderClass</key>
+			<string>SurfaceBatteryDriver</string>
 		</dict>
 		<key>Surface Button</key>
 		<dict>
@@ -92,6 +94,48 @@
 			<integer>400</integer>
 			<key>IOProviderClass</key>
 			<string>IOACPIPlatformDevice</string>
+		</dict>
+		<key>Surface Laptop3 HID</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.xavier.BigSurface</string>
+			<key>IOClass</key>
+			<string>SurfaceLaptop3HIDDriver</string>
+			<key>IOProviderClass</key>
+			<string>SurfaceLaptop3Nub</string>
+		</dict>
+		<key>Surface Laptop3 Touchpad HID Event Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.xavier.BigSurface</string>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>5</integer>
+					<key>DeviceUsagePage</key>
+					<integer>13</integer>
+				</dict>
+			</array>
+			<key>IOClass</key>
+			<string>VoodooI2CPrecisionTouchpadHIDEventDriver</string>
+			<key>IOProbeScore</key>
+			<integer>300</integer>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>Transport</key>
+				<string>Surface Serial Hub</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+			<key>ProcessBluetoothMouseStopsTrackpad</key>
+			<false/>
+			<key>ProcessUSBMouseStopsTrackpad</key>
+			<false/>
+			<key>QuietTimeAfterTyping</key>
+			<integer>200</integer>
+			<key>RM,deliverNotifications</key>
+			<true/>
 		</dict>
 		<key>Surface Serial Hub</key>
 		<dict>
@@ -123,6 +167,11 @@
 			<string>SurfaceTypeCoverDriver</string>
 			<key>IOProbeScore</key>
 			<integer>9999</integer>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>Transport</key>
+				<string>USB</string>
+			</dict>
 			<key>IOProviderClass</key>
 			<string>IOHIDInterface</string>
 			<key>ProcessBluetoothMouseStopsTrackpad</key>
