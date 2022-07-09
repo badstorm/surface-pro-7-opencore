@@ -12,6 +12,14 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
+				<string>SSDT-SURFACE.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
 				<string>SSDT-AWAC.aml</string>
 			</dict>
 			<dict>
@@ -726,9 +734,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF033310CD00001H</string>
+			<string>C02036301QXP8PG8C</string>
 			<key>ProcessorType</key>
-			<integer>1803</integer>
+			<integer>1547</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -736,11 +744,11 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookAir9,1</string>
+			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFD70TNMNHP</string>
+			<string>C02DC8YMML7H</string>
 			<key>SystemUUID</key>
-			<string>95F03DC7-B804-4123-9637-552FB4015EB3</string>
+			<string>9E377496-6E0D-4D34-B7C4-16F25EF1574B</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

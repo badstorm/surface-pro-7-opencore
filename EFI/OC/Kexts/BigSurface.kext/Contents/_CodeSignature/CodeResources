@@ -18,12 +18,8 @@
 		</dict>
 		<key>PlugIns/VoodooInput.kext</key>
 		<dict>
-			<key>cdhash</key>
-			<data>
-			waXjoS5WBSNPkYowkUKxvfGLeP4=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"dd20fa1843d13c9b46e94db81b22899e7ad17ddf" or cdhash H"c1a5e3a12e5605234f918a309142b1bdf18b78fe"</string>
+			<key>symlink</key>
+			<string>/Users/xavier/Library/Developer/Xcode/DerivedData/BigSurface-cddrjlujelxnaqfuhouutiwheyyr/Build/Intermediates.noindex/ArchiveIntermediates/BigSurface/InstallationBuildProductsLocation/System/Library/Extensions/VoodooInput.kext</string>
 		</dict>
 		<key>PlugIns/VoodooSerial.kext</key>
 		<dict>

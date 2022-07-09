@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21E258</string>
+	<string>21F79</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,29 +17,29 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>13A233</string>
+	<string>13F100</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>11.3</string>
+	<string>12.3</string>
 	<key>DTSDKBuild</key>
-	<string>20E214</string>
+	<string>21E226</string>
 	<key>DTSDKName</key>
-	<string>macosx11.3</string>
+	<string>macosx12.3</string>
 	<key>DTXcode</key>
-	<string>1300</string>
+	<string>1341</string>
 	<key>DTXcodeBuild</key>
-	<string>13A233</string>
+	<string>13F100</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Custom MT2 Personality</key>
@@ -500,7 +500,7 @@
 			<key>IOClass</key>
 			<string>VoodooUARTController</string>
 			<key>IOPCIMatch</key>
-			<string>0x34a88086&amp;0xFFFCFFFF 0x9d278086&amp;0xFFFCFFFF</string>
+			<string>0x34a88086 0x9d278086</string>
 			<key>IOProbeScore</key>
 			<integer>400</integer>
 			<key>IOProviderClass</key>
@@ -528,7 +528,7 @@
 			<key>IOProbeScore</key>
 			<integer>9999</integer>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>#IOPCIDevice</string>
 		</dict>
 		<key>VoodooI2CPCILakeController</key>
 		<dict>
@@ -541,7 +541,7 @@
 			<key>IOProbeScore</key>
 			<integer>9999</integer>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>#IOPCIDevice</string>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
