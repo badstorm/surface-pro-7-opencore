@@ -55,7 +55,7 @@
 					<key>XX02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>XX02</string>
 						<key>port</key>
@@ -77,7 +77,7 @@
 					<key>XX08</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>XX08</string>
 						<key>port</key>
@@ -88,7 +88,7 @@
 					<key>XX10</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>XX10</string>
 						<key>port</key>
