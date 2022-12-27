@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G72</string>
+	<string>21G115</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.6</string>
+	<string>1.1.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.6</string>
+	<string>1.1.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -611,12 +611,7 @@
 			<key>IOClass</key>
 			<string>VoodooI2CPrecisionTouchpadHIDEventDriver</string>
 			<key>IOProbeScore</key>
-			<integer>300</integer>
-			<key>IOPropertyMatch</key>
-			<dict>
-				<key>Transport</key>
-				<string>Surface Serial Hub</string>
-			</dict>
+			<integer>400</integer>
 			<key>IOProviderClass</key>
 			<string>IOHIDInterface</string>
 			<key>ProcessBluetoothMouseStopsTrackpad</key>
@@ -624,9 +619,7 @@
 			<key>ProcessUSBMouseStopsTrackpad</key>
 			<false/>
 			<key>QuietTimeAfterTyping</key>
-			<integer>200</integer>
-			<key>RM,deliverNotifications</key>
-			<true/>
+			<integer>400</integer>
 		</dict>
 		<key>Surface Touchscreen HID Event Driver</key>
 		<dict>
@@ -664,7 +657,7 @@
 			<key>IOClass</key>
 			<string>SurfaceTypeCoverDriver</string>
 			<key>IOProbeScore</key>
-			<integer>9999</integer>
+			<integer>500</integer>
 			<key>IOPropertyMatch</key>
 			<dict>
 				<key>Transport</key>
@@ -677,9 +670,7 @@
 			<key>ProcessUSBMouseStopsTrackpad</key>
 			<false/>
 			<key>QuietTimeAfterTyping</key>
-			<integer>200</integer>
-			<key>RM,deliverNotifications</key>
-			<true/>
+			<integer>400</integer>
 		</dict>
 		<key>VoodooI2CHIDDevice</key>
 		<dict>
