@@ -2,6 +2,7 @@
 ---
 OpenCore configuration for support macOS on Surface Pro 7
 
+> :warning: **Limieted support**: I switched from Surface Pro 7 to Surface Pro X so I cannot test anymore. Feel free to send me PR so i can update the repo and the releases
 
 ### Surface Specs
 - Intel® Core™ i5-1035G4 Quad-Core
