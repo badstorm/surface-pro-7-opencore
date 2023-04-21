@@ -6,15 +6,15 @@
 	<dict/>
 	<key>files2</key>
 	<dict>
+		<key>PlugIns/BigSurfaceHIDDriver.kext</key>
+		<dict>
+			<key>symlink</key>
+			<string>/Users/xavier/Library/Developer/Xcode/DerivedData/BigSurface-cddrjlujelxnaqfuhouutiwheyyr/Build/Intermediates.noindex/ArchiveIntermediates/BigSurface/InstallationBuildProductsLocation/System/Library/Extensions/BigSurfaceHIDDriver.kext</string>
+		</dict>
 		<key>PlugIns/VoodooGPIO.kext</key>
 		<dict>
 			<key>symlink</key>
 			<string>/Users/xavier/Library/Developer/Xcode/DerivedData/BigSurface-cddrjlujelxnaqfuhouutiwheyyr/Build/Intermediates.noindex/ArchiveIntermediates/BigSurface/InstallationBuildProductsLocation/System/Library/Extensions/VoodooGPIO.kext</string>
-		</dict>
-		<key>PlugIns/VoodooI2CServices.kext</key>
-		<dict>
-			<key>symlink</key>
-			<string>/Users/xavier/Library/Developer/Xcode/DerivedData/BigSurface-cddrjlujelxnaqfuhouutiwheyyr/Build/Intermediates.noindex/ArchiveIntermediates/BigSurface/InstallationBuildProductsLocation/System/Library/Extensions/VoodooI2CServices.kext</string>
 		</dict>
 		<key>PlugIns/VoodooInput.kext</key>
 		<dict>
