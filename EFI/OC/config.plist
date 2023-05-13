@@ -79,23 +79,32 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X09TSQ==</data>
+				<data>
+				X09TSQ==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WE9TSQ==</data>
+				<data>
+				WE9TSQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -109,23 +118,32 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>AAgJALIAAADw8Q==</data>
+				<data>
+				AAgJALIAAADw8Q==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>AAIJALIAAADw8Q==</data>
+				<data>
+				AAIJALIAAADw8Q==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RkFDUA==</data>
+				<data>
+				RkFDUA==
+				</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -198,37 +216,64 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>AQAAAA==</data>
-				<key>AAPL,ig-platform-id</key>
-				<data>AABaig==</data>
-				<key>GraphicsBacklightSetup-0</key>
-				<data>AAABAAAAAACqqqqqqqqqqqqqqqqqqqqqAAAAAAAAAAAAAAAAAAAAAA==</data>
-				<key>GraphicsDisplaySetup</key>
-				<data>AAABAAAAAAAEAAAAjAoAAAEAAAAAAAEAAAADAAAAkGyKDwAAAAAACgAAQAYAAFAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAgAAAAgAAAAASAAAAAIAAAAAAABAAEAAAAAAAEAAAAEAAAAAAAAAQEAAAAAAAAAAABACwAACAcAAAAtAAABAAAAAAAAAAA=</data>
-				<key>enable-backlight-registers-fix</key>
-				<data>AQAAAA==</data>
-				<key>enable-cdclk-frequency-fix</key>
-				<data>AQAAAA==</data>
-				<key>enable-dbuf-early-optimizer</key>
-				<data>AQAAAA==</data>
-				<key>enable-dvmt-calc-fix</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-stolenmem</key>
-				<data>AACwAw==</data>
-				<key>igfxfw</key>
-				<data>AgAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>No-hda-gfx</key>
-				<data>AAAAAAAAAAA=</data>
+				<data>
+				AAAAAAAAAAA=
+				</data>
 				<key>layout-id</key>
 				<integer>35</integer>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AABaig==
+				</data>
+				<key>GraphicsBacklightSetup-0</key>
+				<data>
+				AAABAAAAAACqqqqqqqqqqqqqqqqqqqqqAAAAAAAAAAAA
+				AAAAAAAAAA==
+				</data>
+				<key>GraphicsDisplaySetup</key>
+				<data>
+				AAABAAAAAAAEAAAAjAoAAAEAAAAAAAEAAAADAAAAkGyK
+				DwAAAAAACgAAQAYAAFAAAAAAAAAAAAAAAC4AAAAAAAAA
+				AAAAAAgAAAAgAAAAASAAAAAIAAAAAAABAAEAAAAAAAEA
+				AAAEAAAAAAAAAQEAAAAAAAAAAABACwAACAcAAAAtAAAB
+				AAAAAAAAAAA=
+				</data>
+				<key>enable-backlight-registers-fix</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-cdclk-frequency-fix</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-dbuf-early-optimizer</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-dvmt-calc-fix</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-stolenmem</key>
+				<data>
+				AACwAw==
+				</data>
+				<key>igfxfw</key>
+				<data>
+				AgAAAA==
+				</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -345,7 +390,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>			
+			</dict>
 			<dict>
 				<key>Arch</key>
 				<string>Any</string>
@@ -494,7 +539,25 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBMap.kext</string>
+				<string>USBToolBox.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/USBToolBox</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>UTBMap.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -532,9 +595,11 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data></data>
+			<data>
+			</data>
 			<key>Cpuid1Mask</key>
-			<data></data>
+			<data>
+			</data>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -556,9 +621,9 @@
 			<false/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
-			<key>CustomSMBIOSGuid</key>
-			<false/>
 			<key>CustomPciSerialDevice</key>
+			<false/>
+			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
@@ -680,9 +745,11 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data></data>
+			<data>
+			</data>
 			<key>PasswordSalt</key>
-			<data></data>
+			<data>
+			</data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -707,7 +774,9 @@
 				<key>LineControl</key>
 				<integer>7</integer>
 				<key>PciDeviceInfo</key>
-				<data>/w==</data>
+				<data>
+				/w==
+				</data>
 				<key>RegisterAccessWidth</key>
 				<integer>8</integer>
 				<key>RegisterBase</key>
@@ -733,26 +802,35 @@
 		<dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
-				<key>UIScale</key>
-				<data>Ag==</data>
 				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
-			</dict>
-			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<dict>
-				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
-				<key>boot-args</key>
-				<string></string>
-				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
-				<key>run-efi-updater</key>
-				<string>No</string>
+				<data>
+				AAAAAA==
+				</data>
+				<key>UIScale</key>
+				<data>
+				Ag==
+				</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
-				<data></data>
+				<data>
+				</data>
+			</dict>
+			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+			<dict>
+				<key>SystemAudioVolume</key>
+				<data>
+				Rg==
+				</data>
+				<key>boot-args</key>
+				<string></string>
+				<key>csr-active-config</key>
+				<data>
+				AAAAAA==
+				</data>
+				<key>run-efi-updater</key>
+				<string>No</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -764,10 +842,10 @@
 		</dict>
 		<key>LegacyOverwrite</key>
 		<false/>
-		<key>WriteFlash</key>
-		<true/>
 		<key>LegacySchema</key>
 		<dict/>
+		<key>WriteFlash</key>
+		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -779,14 +857,15 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
 			<key>MLB</key>
 			<string>C02036301QXP8PG8C</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>ProcessorType</key>
 			<integer>1547</integer>
 			<key>ROM</key>
-			<data></data>
+			<data>
+			</data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
@@ -846,9 +925,9 @@
 			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
-			<key>PointerPollMin</key>
-			<integer>0</integer>
 			<key>PointerPollMax</key>
+			<integer>0</integer>
+			<key>PointerPollMin</key>
 			<integer>0</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
@@ -970,10 +1049,10 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
-			<key>UgaPassThrough</key>
-			<false/>
 			<key>UIScale</key>
 			<integer>-1</integer>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
