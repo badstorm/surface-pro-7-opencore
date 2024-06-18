@@ -18,8 +18,9 @@ OpenCore configuration for support macOS on Surface Pro 7
 |  :white_check_mark: |  Wifi & Bluetooth              |  With [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) |
 |  :white_check_mark: |  Type Cover  (keyboard/mouse)  |  With RHUB and [BigSurface](https://github.com/Xiashangning/BigSurface)|                             
 |  :white_check_mark: |  Audio                         |  With AppleALC   |
-|  :white_check_mark: |  Battery Status          |  With [BigSurface](https://github.com/Xiashangning/BigSurface)                 | 
-|  :white_check_mark: |  Touch & Stylus          |  With [BigSurface](https://github.com/Xiashangning/BigSurface). You need to manualy insall [IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon)                | 
+|  :white_check_mark: |  Battery Status                |  With [BigSurface](https://github.com/Xiashangning/BigSurface)                 | 
+|  :white_check_mark: |  Touch & Stylus                |  With [BigSurface](https://github.com/Xiashangning/BigSurface). You need to manualy insall [IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon)                | 
+|  :white_check_mark: |  microSD slot                  |  With [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader). You need to include [RealtekCardReaderFriend](https://github.com/0xFireWolf/RealtekCardReaderFriend)
 |                     |                                |                   |
 |  :heavy_exclamation_mark: |  Camera Front and Rear        |                   | 
 
